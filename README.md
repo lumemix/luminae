@@ -18,32 +18,20 @@ LUMINAE is a three‑module gradient‑boosting framework for cardiovascular ris
 
 ## Repository Structure
 
-> LUMINAE/ -> Data_Pipeline/:
-> 
-> Phase: I-III (Demographics, diagnoses, medication aggregation)
-> 
-> Phase: IV-V (Laboratory and vital sign integration)
-> 
-> Phase: VI-VIII (Data sharding for RiskNet, HematologyNet, ProgressionNet)
-> 
-> Phase: IX-XI (Temporal feature extraction (slopes, fractions, IQR)
-> 
-> Phase: XII (Final master dataset assembly)
-> 
-> LUMINAE/ -> models/:
-> 
-> RiskNetNEO.py: Pre‑diagnostic triage module
-> 
-> HematologyNet.py: Multi‑label diagnostic module
-> 
-> ProgressionNet.py: Prognostic module (HORIZON‑4, MORTALITY‑2)
-> 
-> requirements.txt
-> 
-> README.md
-> 
-> LICENSE
-
+- **LUMINAE/**
+  - **Data_Pipeline/** – All feature engineering scripts (Phases I‑XII)
+    - **Phase_I-III/** – Demographics, diagnoses, medication aggregation
+    - **Phase_IV-V/** – Laboratory and vital sign integration
+    - **Phase_VI-VIII/** – Data sharding for RiskNet, HematologyNet, ProgressionNet
+    - **Phase_IX-XI/** – Temporal feature extraction (slopes, fractions, IQR)
+    - **Phase_XII/** – Final master dataset assembly
+  - **models/** – Training and evaluation scripts
+    - **RiskNetNEO.py** – Pre‑diagnostic triage module
+    - **HematologyNet.py** – Multi‑label diagnostic module
+    - **ProgressionNet.py** – Prognostic module (HORIZON‑4, MORTALITY‑2)
+  - **requirements.txt** – Python dependencies
+  - **README.md** – This file
+  - **LICENSE** – MIT License
 ---
 ## Requirements
 
