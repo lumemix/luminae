@@ -95,8 +95,9 @@ If you use this code or the LUMINAE framework in your research, please cite:
 ## Contact 
 
 Seth Refugio
-Email: sethrefugio9@gmail.com
-GitHub: @lumemix
+>Email: sethrefugio9@gmail.com
+>
+>GitHub: @lumemix
 
 For questions or collaboration, please open an issue on GitHub.
 
